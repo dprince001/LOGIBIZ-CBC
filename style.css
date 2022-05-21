@@ -72,7 +72,9 @@ body {
 }
 
 .overview {
-    background-color: rgba(255,41,41,0.7);
+    background-image: url(overview.jpg);
+    background-size: cover;
+    background-position: center;
     height: 400px;
     padding: 16px;
     color: white;
@@ -142,4 +144,35 @@ button:hover {
     background-color: white;
     color: #0e4f1f;
     border: 2px solid #0e4f1f;
+}
+
+#key-features {
+    background-color: rgba(255,41,41,0.8);
+    text-align: center;
+}
+
+#key-features h1 {
+    padding: 20px 0;
+    color: white;
+}
+
+.key-features-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.key-feature img {
+    width: 35%;
+}
+
+.key-feature p {
+    font-size: 24px;
+    color: white;
+}
+
+footer {
+    text-align: center;
 }
